@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List Interaktif</title>
+
+    <!-- CDN Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- CSS External -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="d-flex justify-content-center align-items-center min-vh-100">
+        <div class="card shadow-sm" style="width: 400px;">
+            <div class="card-body">
+                <h2 class="card-title text-center mb-4">Daftar Tugas</h2>
+
+                <!-- Form Input Tugas -->
+                <div class="input-group mb-3">
+                    <input type="text" id="inputTugas" class="form-control" placeholder="Tulis tugas baru...">
+                    <button id="btnTambah" class="btn btn-primary" type="button">Tambah</button>
+                </div>
+
+                <!-- Area Penampung Daftar Tugas -->
+                <div id="areaArray">
+                    <p class="text-center text-muted">Belum ada tugas hari ini...</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Javascript External -->
+    <script src="script.js"></script>
+</body>
+
+</html>

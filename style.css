@@ -1,0 +1,12 @@
+body {
+    background: #f4f6f9;
+}
+
+.card {
+    border: none;
+    border-radius: 12px;
+}
+
+#areaArray .list-group-item {
+    word-break: break-word;
+}
